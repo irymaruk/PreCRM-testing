@@ -3,6 +3,9 @@ PreCRM_testing
 
 Selenium WD testing framework fo PreCRM
 
+   Getting started!
+   ----------------
+
 1. Sign up for GitHub https://github.com/join
 2. Setup GIT - https://help.github.com/articles/set-up-git
    Set Up you Git user.name and user.email
