@@ -81,11 +81,11 @@ class TestLogin(BaseTestCase):
         # Перевіряємо, що ми дійсно на сторінці Авторизації і успішно проходимо авторизацію
         assert u'PreCRM. Логін' in login_page.get_title()
 
-    def test_login_success_lowercase(self):
-        self.do_login('test1234', 'qwer4321')
-
-    def test_login_success_uppercase(self):
-        self.do_login('TEST1234', 'qwer4321')
+    # def test_login_success_lowercase(self):
+    #     self.do_login('test1234', 'qwer4321')
+    #
+    # def test_login_success_uppercase(self):
+    #     self.do_login('TEST1234', 'qwer4321')
 
 
 if __name__ == "__main__":
