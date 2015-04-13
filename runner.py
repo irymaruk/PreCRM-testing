@@ -7,6 +7,8 @@ import nose
 
 if __name__== '__main__':
     #nose.main(argv=['','-v'])
-    #nose.main(argv=['', 'tests/tests/test_modul_B.py','-v'])
+    #nose.main(argv=['', 'tests/test_modul_A.py','-v', '-s'])
+    #nose.main(argv=['', 'tests/log_fil_test.py:A.test_one','-v', '-s', '--nologcapture'])
     #nose.main(argv=['', 'tests/tests/test_modul_B.py:test_b_2','-v'])
-    nose.main(argv=['', 'tests/tests/test_modul_B.py:test_b_2','-v', '-s'])
+    #nose.main(argv=['', 'tests/tests/test_modul_B.py:test_b_2','-v', '-s'])
+    nose.main(argv=['', 'tests/test_modul_A.py:A.test_a_1','-v', '-s', '--nologcapture'])
